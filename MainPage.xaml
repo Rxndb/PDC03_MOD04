@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD4.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Module 04-List and Navigations!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Activity1 - Listview " Clicked="Acitivty1Page"/>
+        <Button Text="Activity1 - Listview-ItemsSource " Clicked="Acitivty2Page"/>
+        <Button Text="Activity3 - CollectionView " Clicked="Acitivty3Page"/>
+    </StackLayout>
+
+</ContentPage>
